@@ -95,7 +95,7 @@ function login () {
     database_ref.child('users/' + user.uid).update(user_data)
 
     // DOne
-    window.location.href = "index.html";
+    window.location.href = "home.html";
     alert('User Logged In!!')
 
   })
